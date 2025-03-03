@@ -1,42 +1,83 @@
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTelegram, FaTwitter } from "react-icons/fa";
 import { RevealOnScroll } from "../components/RevealOnScroll";
+import { Typewriter } from "react-simple-typewriter";
+import { ParticlesBackground } from "../components/ParticlesBackground"; // Import particle effect
 
 export const Home = () => {
   return (
-    <section
-      id="home"
-      className="min-h-screen flex items-center justify-center relative bg-cover bg-center"
-      // style={{ backgroundImage: "url('/home-bg.jpg')" }}
-    >
-     
+    <section id="home" className="relative min-h-screen flex flex-col items-center justify-center bg-black mt-16 p-10">
+      <ParticlesBackground />
       <RevealOnScroll>
-        <div className="flex flex-col md:flex-row items-center justify-center w-full px-4">
-          <div className="text-center md:text-left md:w-1/2 z-10">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
-              Hi Visitor! I am kimmmm
+        <div className="flex flex-col md:flex-row items-center justify-center w-full px-4 relative z-10">
+          <div className="text-center md:text-left md:w-1/2">
+            <h1 className="text-3xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
+              Hi Visitor!<br /> I'm Kimleang
             </h1>
-
-            <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto md:mx-0">
-              I’m a full-stack developer who loves crafting clean, scalable web
-              applications. My goal is to build solutions that offer both
-              exceptional performance and a delightful user experience.
-            </p>
+            <br />
+            <h2 className="text-2xl md:text-4xl font-bold text-white mb-6">
+              <Typewriter
+                words={["Full-Stack Developer", "Software Engineer", "Freelancer"]}
+                loop={0}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </h2>
             <div className="flex justify-center md:justify-start space-x-4">
-              <a
-                href="#projects"
-                className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
-              >
+              <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5">
                 View Projects
               </a>
             </div>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
-            <img
-              src="/home-img.png"
-              alt="Home"
-              className="w-full max-w-sm rounded-lg shadow-lg"
-            />
+            <img src="/home-img.png" alt="Home" className="w-full max-w-sm rounded-lg shadow-lg" />
           </div>
         </div>
+
+        <br /><br />
+
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white text-center mt-20">
+          Self<span className="text-blue-400"> Introduction</span>
+        </h2>
+
+        <div className="flex flex-col md:flex-row items-center justify-center w-full px-4 mt-8">
+          <div className="md:w-1/2 text-center md:text-left">
+            <p className="text-gray-400 text-lg mb-8 max-w-2xl">
+              I am a <span className="italic text-blue-300">software developer</span>, who is passionate about building web applications and mobile applications. I have experience in building 
+              web applications using React js, and Laravel. I also have experience in building mobile applications using Flutter. 
+              I am always looking for new opportunities to learn and grow as a developer.
+            </p>
+          </div>
+          <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+            <img src="/home-img.png" alt="Introduce" className="w-full max-w-sm rounded-lg shadow-lg" />
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center justify-center w-full px-4 mt-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+            Find Me On <span className="text-blue-400">Other Platforms</span>
+          </h2>
+          <p className="text-gray-400 text-lg mb-8 max-w-2xl text-center">
+            Feel free to <span className="text-blue-300">connect</span> with me on different social media platforms!
+          </p>
+          <div className="flex space-x-6">
+            <a href="" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-blue-400 transition">
+              <FaGithub />
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-blue-400 transition">
+              <FaTelegram />
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-blue-400 transition">
+              <FaLinkedin />
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-blue-400 transition">
+              <FaFacebook />
+            </a>
+          </div>
+        </div>
+
       </RevealOnScroll>
     </section>
   );
