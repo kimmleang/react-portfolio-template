@@ -1,4 +1,4 @@
-import { RevealOnScroll } from "../RevealOnScroll";
+import { RevealOnScroll } from "../components/RevealOnScroll";
 
 export const Projects = () => {
   return (

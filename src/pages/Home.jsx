@@ -1,5 +1,4 @@
-import ParticlesEffect from "../ParticlesEffect";
-import { RevealOnScroll } from "../RevealOnScroll";
+import { RevealOnScroll } from "../components/RevealOnScroll";
 
 export const Home = () => {
   return (
