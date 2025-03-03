@@ -14,7 +14,7 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <img src="/hr-project.jpg" alt="Project 1" className="w-full rounded-lg shadow-lg mb-2"/>
+              <img src="/hr-project.jpg" alt="Project 1" className="w-full h-48 object-cover rounded-lg shadow-lg mb-2"/>
               <h3 className="text-xl font-bold mb-2">Human Resource System</h3>
               <p className="text-gray-400 mb-4">
                 HR management system with Attendance tracking, CRM and Payroll.
@@ -44,12 +44,12 @@ export const Projects = () => {
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:bor  der-blue-500/30
+              hover:-translate-y-1 hover:border-blue-500/30
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
               transition-all
             "
             >
-              <img src="/doccare-project.jpg" alt="Project 1" className="w-full rounded-lg shadow-lg mb-2"/>
+              <img src="/doccare-project.jpg" alt="Project 1" className="w-full h-48 object-cover rounded-lg shadow-lg mb-2"/>
               <h3 className="text-xl font-bold mb-2">Booking Appointment App</h3>
               <p className="text-gray-400 mb-4">
                 Mobile app for patient booking appointments with doctors, clinics and discuss about illness.
@@ -88,7 +88,7 @@ export const Projects = () => {
               transition-all
             "
             >
-              <img src="/E-commerce-project.jpg" alt="Project 1" className="w-full rounded-lg shadow-lg mb-2"/>
+              <img src="/E-commerce-project.jpg" alt="Project 1" className="w-full h-48 object-cover rounded-lg shadow-lg mb-2"/>
               <h3 className="text-xl font-bold mb-2">E-Commerce Website</h3>
               <p className="text-gray-400 mb-4">
                 E-commerce website with a modern UI and product listing, cart and checkout features
@@ -129,7 +129,7 @@ export const Projects = () => {
               transition-all
             "
             >
-              <img src="/home-bg.jpg" alt="Project 1" className="w-full rounded-lg shadow-lg mb-2"/>
+              <img src="/telegram-project.jpg" alt="Project 1" className="w-full h-48 object-cover rounded-lg shadow-lg mb-2"/>
               <h3 className="text-xl font-bold mb-2">Telegram Bot Notification</h3>
               <p className="text-gray-400 mb-4">
                 Product added to stock, The notification will will be send using telegram bot.
