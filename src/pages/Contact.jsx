@@ -35,10 +35,11 @@ export const Contact = () => {
         <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
-            Get In Touch
+            Contact For Work
           </h2>
           <form className="space-y-6" onSubmit={handleSubmit}>
-            <div className="relative">
+            <label>Name</label>
+            <div className="relative mt-2">
               <input
                 type="text"
                 id="name"
@@ -46,14 +47,15 @@ export const Contact = () => {
                 required
                 value={formData.name}
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
-                placeholder="Name..."
+                placeholder="Your Name..."
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
                 }
               />
             </div>
 
-            <div className="relative">
+            <label>Email</label>
+            <div className="relative mt-2">
               <input
                 type="email"
                 id="email"
@@ -61,14 +63,32 @@ export const Contact = () => {
                 required
                 value={formData.email}
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
-                placeholder="example@gmail.com"
+                placeholder="Your Email..."
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
                 }
               />
             </div>
+            
+            <label> Phone Number</label>
+            <div className="relative mt-2">
+              <input
+                type="number"
+                id="phone"
+                name="phone"
+                required
+                value={formData.phone}
+                className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+                placeholder="Your Phone Number..."
+                onChange={(e) =>
+                  setFormData({ ...formData, phone: e.target.value })
+                }
+              />
+            </div>
 
-            <div className="relative">
+
+            <labe>Message</labe>
+            <div className="relative mt-2">
               <textarea
                 id="message"
                 name="message"
