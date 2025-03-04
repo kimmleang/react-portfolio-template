@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -21,52 +22,50 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         &times;
       </button>
 
-      <a
-        href="#home"
+      <NavLink
+        to="/"
         onClick={() => setMenuOpen(false)}
-        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-                    ${
-                      menuOpen
-                        ? "opacity-100 translate-y-0"
-                        : "opacity-0 translate-y-5"
-                    }        
-            `}
+        className={({ isActive }) =>
+          `text-2xl font-semibold my-4 transform transition-transform duration-300 ${
+            menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+          } ${isActive ? "text-blue-500" : "text-white"}`
+        }
       >
         Home
-      </a>
-      <a
-        href="#about"
+      </NavLink>
+      <NavLink
+        to="/about"
         onClick={() => setMenuOpen(false)}
-        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-            ${
-              menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-            }        
-    `}
+        className={({ isActive }) =>
+          `text-2xl font-semibold my-4 transform transition-transform duration-300 ${
+            menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+          } ${isActive ? "text-blue-500" : "text-white"}`
+        }
       >
         About
-      </a>
-      <a
-        href="#projects"
+      </NavLink>
+      <NavLink
+        to="/projects"
         onClick={() => setMenuOpen(false)}
-        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-            ${
-              menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-            }        
-    `}
+        className={({ isActive }) =>
+          `text-2xl font-semibold my-4 transform transition-transform duration-300 ${
+            menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+          } ${isActive ? "text-blue-500" : "text-white"}`
+        }
       >
         Projects
-      </a>
-      <a
-        href="#contact"
+      </NavLink>
+      <NavLink
+        to="/contact"
         onClick={() => setMenuOpen(false)}
-        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-            ${
-              menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-            }        
-    `}
+        className={({ isActive }) =>
+          `text-2xl font-semibold my-4 transform transition-transform duration-300 ${
+            menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+          } ${isActive ? "text-blue-500" : "text-white"}`
+        }
       >
         Contact
-      </a>
+      </NavLink>
     </div>
   );
 };

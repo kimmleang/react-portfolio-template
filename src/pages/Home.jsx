@@ -41,13 +41,18 @@ export const Home = () => {
           Self<span className="text-blue-400"> Introduction</span>
         </h2>
         <div className="flex flex-col md:flex-row items-center justify-center w-full px-4 mt-4">
-          <div className="md:w-1/2 text-center md:text-left">
-            <p className="text-gray-400 text-lg mb-8 max-w-2xl">
-              I am a <span className="italic text-blue-300">software developer</span>, who is passionate about building web applications and mobile applications. I have experience in building 
-              web applications using React js, and Laravel. I also have experience in building mobile applications using Flutter. 
-              I am always looking for new opportunities to learn and grow as a developer.
-            </p>
-          </div>
+        <div className="md:w-1/2 text-center md:text-left">
+          <p className="text-gray-400 text-lg mb-8 max-w-2xl">
+            I am a <span className="italic text-blue-300">software developer</span>, who is passionate about building web applications and mobile applications. I have experience in building 
+            web applications using React.js and Laravel. I also have experience in building mobile applications using Flutter. 
+            I am always looking for new opportunities to learn and grow as a developer.
+          </p>
+          <p className="text-gray-400 text-lg max-w-2xl">
+            I am also available for <span className="italic text-blue-300">freelance work</span>, Such as building company profile websites, e-commerce platforms, web applications, mobile apps, and other custom systems. 
+            Feel free to reach out if you have a project in mind!
+          </p>
+        </div>
+
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
             <img src="/home-img.png" alt="Introduce" className="w-full max-w-sm rounded-lg shadow-lg" />
           </div>

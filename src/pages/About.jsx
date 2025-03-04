@@ -84,7 +84,7 @@ export const About = () => {
                   (2022 - Present)
                 </li>
                 <li>
-                  Relevant ShortCourses:<br/>
+                  Training Courses:<br/>
                   - Web Design at ETECT Training Center (3 months)<br />
                   - Graphic Design at INSTINCT INSTITUTE (3 months)
                 </li>
