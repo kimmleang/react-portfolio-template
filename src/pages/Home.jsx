@@ -38,7 +38,7 @@ export const Home = () => {
         <br /><br /><br />
 
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white text-center mt-20">
-          Self<span className="text-blue-400"> Introduction</span>
+          Let me introduce<span className="text-blue-400"> Myself</span>
         </h2>
         <div className="flex flex-col md:flex-row items-center justify-center w-full px-4 mt-4">
         <div className="md:w-1/2 text-center md:text-left">
