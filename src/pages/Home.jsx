@@ -44,7 +44,7 @@ export const Home = () => {
         <div className="md:w-1/2 text-center md:text-left">
           <p className="text-gray-400 text-lg mb-8 max-w-2xl">
             I am a <span className="italic text-blue-300">software developer</span>, who is passionate about building web applications and mobile applications. I have experience in building 
-            web applications using React.js and Laravel. I also have experience in building mobile applications using Flutter. 
+            web applications and mobile applications
             I am always looking for new opportunities to learn and grow as a developer.
           </p>
           <p className="text-gray-400 text-lg max-w-2xl">
