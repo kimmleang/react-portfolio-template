@@ -35,7 +35,7 @@ export const Home = () => {
             />
           </div>
         </div>
-        <br /><br /><br />
+        <br /><br />
 
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white text-center mt-20">
           Let me introduce<span className="text-blue-400"> Myself</span>

@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../components/RevealOnScroll";
 
 export const About = () => {
 
-  const frontendSkills = [ "React", "Vue", "TypeScript", "TailwindCSS","WordPress"];
+  const frontendSkills = [ "React", "Vue", "TypeScript", "Next.js","TailwindCSS", "Bootstrap","Payload CMS"];
   const backendSkills = ["PHP", "Laravel", "Docker", "MySQL", "PostgreSQL"];
   const tools = ["Docker", "Postman", "Figma", "Google Cloud"];
 
@@ -20,8 +20,7 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              Junior Full-Stack Developer with 2+ years of experience in building web applications and mobile applications.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
