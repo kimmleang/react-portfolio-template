@@ -43,8 +43,7 @@ export const Home = () => {
         <div className="flex flex-col md:flex-row items-center justify-center w-full px-4 mt-4">
         <div className="md:w-1/2 text-center md:text-left">
           <p className="text-gray-400 text-lg mb-8 max-w-2xl">
-            I am a <span className="italic text-blue-300">software developer</span>, who is passionate about building web applications and mobile applications. I have experience in building 
-            web applications and mobile applications
+            I am a <span className="italic text-blue-300">software developer</span>, who is passionate about building web applications and mobile applications.
             I am always looking for new opportunities to learn and grow as a developer.
           </p>
           <p className="text-gray-400 text-lg max-w-2xl">
