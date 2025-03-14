@@ -15,8 +15,8 @@ Check out the live version here: [My Portfolio](https://www.kimleang.site) (Depl
 ## 🚀 Getting Started
 ### 1️⃣ Clone this repository:
 ```bash
-git clone https://github.com/kimmleang/PortfolioV2.git
-cd PortfolioV2
+git clone https://github.com/kimmleang/react-portfolio-template.git
+cd react-portfolio-template
 ```
 
 ### 2️⃣ Install dependencies:
