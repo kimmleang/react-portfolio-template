@@ -3,7 +3,7 @@
 Welcome to my personal portfolio! This project is built with **React**, **Vite**, and **Tailwind CSS** to showcase my skills, projects, and experience. It is fully responsive, fast, and customizable for anyone looking to use it as a template. 🚀
 
 ## 🔗 Live Demo
-Check out the live version here: [My Portfolio](https://yourdomain.com) (Deployed on **Vercel**)
+Check out the live version here: [My Portfolio](https://www.kimleang.site) (Deployed on **Vercel**)
 
 ## 📂 Features
 - ⚡ **Vite-Powered**: Super fast development and optimized builds
@@ -11,13 +11,12 @@ Check out the live version here: [My Portfolio](https://yourdomain.com) (Deploye
 - 🌙 **Dark Mode Support**
 - 🔧 **Easily Customizable**: Change content, colors, and layout quickly
 - 📱 **Fully Responsive**: Works on all devices
-- 🛠️ **SEO Friendly** & **Optimized for Performance**
 
 ## 🚀 Getting Started
 ### 1️⃣ Clone this repository:
 ```bash
-git clone https://github.com/yourusername/your-portfolio.git
-cd your-portfolio
+git clone https://github.com/kimmleang/PortfolioV2.git
+cd PortfolioV2
 ```
 
 ### 2️⃣ Install dependencies:
