@@ -70,6 +70,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Contact
               <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
             </NavLink>
+            <NavLink to="/resume" className="group relative text-gray-300 hover:text-white transition-colors"> Wordpress
+
+            </NavLink>
           </div>
         </div>
       </div>
