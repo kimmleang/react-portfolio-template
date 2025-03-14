@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio! This project is built with **React**, **Vite**, and **Tailwind CSS** to showcase my skills, projects, and experience. It is fully responsive, fast, and customizable for anyone looking to use it as a template. 🚀
 
+![Portfolio Preview](https://github.com/kimmleang/PortfolioV2/main/public/demo-homepage.jpg)
+
 ## 🔗 Live Demo
 Check out the live version here: [My Portfolio](https://www.kimleang.site) (Deployed on **Vercel**)
 
