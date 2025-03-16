@@ -12,7 +12,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className="flex justify-between items-center h-16">
           <NavLink to="/" className="font-mono text-xl font-bold text-white">
             {" "}
-            Kimleang<span className="text-blue-500">.Dev</span>{" "}
+            John<span className="text-blue-500"> Kimleang</span>{" "}
           </NavLink>
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
