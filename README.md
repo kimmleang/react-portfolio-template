@@ -4,7 +4,7 @@ This is my personal portfolio! This project is built with **React**, **Vite**, a
 
 ![Portfolio Preview](public/demo-homepage.jpg)
 
-## 🔗 Live Demo
+## 🔗Demo
 
 Check out the live version here: [My Portfolio](https://www.kimleang.site) (Deployed on **Vercel**)
 
