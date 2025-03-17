@@ -60,6 +60,6 @@ This project is **open-source** and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Feel free to **fork** this repository and modify it as per your needs. If you improve something, consider submitting a pull request! 😊
+Feel free to **fork** this repository and modify it as per your needs. If you improve something, consider submitting a pull request! 
 
-🔥 If you like this project, don't forget to **star** the repo and **fork** it for your use! 🔥
+🔥 If you like this project, don't forget to **star** the repo and **fork** it for your use! 
