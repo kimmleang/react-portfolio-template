@@ -5,7 +5,7 @@ This is my personal portfolio! This project is built with **React**, **Vite**, a
 
 ## 🔗Demo
 
-Check out the live version here: [My Portfolio](https://www.kimleang.site) (Deployed on **Vercel**)
+Check out the live version here: [My Portfolio](https://www.kimleang.site)
 
 ## 📂 Features
 
