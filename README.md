@@ -1,4 +1,4 @@
-# 🌟 Portfolio - React + Vite + Tailwind CSS
+# 🌟 Portfolio - React.js + Vite + Tailwind CSS
 
 This is my personal portfolio! This project is built with **React**, **Vite**, and **Tailwind CSS** to showcase my skills, projects, and experience. It is fully responsive, fast, and customizable for anyone looking to use it as a template. 🚀
 
