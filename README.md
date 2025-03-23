@@ -11,7 +11,6 @@ Check out the live version here: [My Portfolio](https://www.kimleang.site)
 
 - ⚡ **Vite-Powered**: Super fast development and optimized builds
 - 🎨 **Tailwind CSS**: Beautiful and responsive design
-- 🌙 **Dark Mode Support**
 - 🔧 **Easily Customizable**: Change content, colors, and layout quickly
 - 📱 **Fully Responsive**: Works on all devices
 
