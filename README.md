@@ -1,4 +1,4 @@
-# 🌟 Portfolio Website
+  # 🌟 Portfolio Website
 
 This is my personal portfolio! This project is built with **React**, **Vite**, and **Tailwind CSS** to showcase my skills, projects, and experience. It is fully responsive, fast, and customizable for anyone looking to use it as a template. 🚀
 
@@ -58,6 +58,6 @@ This project is **open-source** and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Feel free to **fork** this repository and modify it as per your needs. If you improve something,
+Feel free to **fork** this repository and modify it as per your needs.
 
 If you like this project, don't forget to **star** the repository and **fork** it for your use! 
